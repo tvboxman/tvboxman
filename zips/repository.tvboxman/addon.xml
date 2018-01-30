@@ -6,6 +6,7 @@
 			<checksum>https://raw.githubusercontent.com/totalrevolution/python-koding/master/zips/addons.xml.md5</checksum>
 			<datadir zip="true">https://raw.githubusercontent.com/totalrevolution/python-koding/master/zips/</datadir>
 		</dir>
+<<<<<<< HEAD
 
 <dir>
 
@@ -16,6 +17,18 @@
                         <datadir zip="true">https://raw.githubusercontent.com/noobsandnerds/modules4all/master/zips/</datadir>
 
                 </dir>
+=======
+
+<dir>
+
+                        <info compressed="false">https://raw.githubusercontent.com/noobsandnerds/modules4all/master/zips/addons.xml</info>
+
+                        <checksum>https://raw.githubusercontent.com/noobsandnerds/modules4all/master/zips/addons.xml.md5</checksum>
+
+                        <datadir zip="true">https://raw.githubusercontent.com/noobsandnerds/modules4all/master/zips/</datadir>
+
+                </dir>
+>>>>>>> 17c66d09b80b8b07b0d56ef5a7d21071a1a4ae1f
 		<info compressed="false">https://raw.githubusercontent.com/tvboxman/repository.tvboxman/master/zips/addons.xml</info>
 		<checksum>https://raw.githubusercontent.com/tvboxman/repository.tvboxman/master/zips/addons.xml.md5</checksum>
 		<datadir zip="true">https://raw.githubusercontent.com/tvboxman/repository.tvboxman/master/zips/</datadir>
