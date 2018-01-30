@@ -1,0 +1,53 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<addons>
+<addon id="plugin.program.tvboxman.notifications" version="99.0.5"
+       name="Notifications" provider-name="tvboxman.com">
+  <requires>
+  	<import addon="xbmc.python" version="2.1.0"/>
+  	<import addon="script.module.addon.common" optional="true" />
+  </requires>
+  <extension point="xbmc.python.script" library="default.py">
+    <provides>executable</provides>
+  </extension>
+  <extension point="xbmc.service" library="service.py" start="startup">
+  </extension>
+  <extension point="xbmc.addon.metadata">
+  	<summary>TVBOXMAN NEWS & UPDATES</summary>
+  	<description>Receive Important TVBOXMAN Notifications. Unsubscribe within Add-on Settings.</description>
+  	<disclaimer>We take no responsibility for any problems this plugin might in any way, form, shape or size cause.</disclaimer>
+  	<language>en</language>
+  	<platform>all</platform>
+    	<website>http://www.tvboxman.com</website>
+  	<source></source>
+  	<email></email>
+  </extension>
+</addon>
+
+<addon id="repository.tvboxman" name="tvboxman" version="0.0.1" provider-name="Brando">
+	<extension point="xbmc.addon.repository" name="tvboxman">
+		<dir>
+			<info compressed="false">https://raw.githubusercontent.com/totalrevolution/python-koding/master/zips/addons.xml</info>
+			<checksum>https://raw.githubusercontent.com/totalrevolution/python-koding/master/zips/addons.xml.md5</checksum>
+			<datadir zip="true">https://raw.githubusercontent.com/totalrevolution/python-koding/master/zips/</datadir>
+		</dir>
+
+<dir>
+
+                        <info compressed="false">https://raw.githubusercontent.com/noobsandnerds/modules4all/master/zips/addons.xml</info>
+
+                        <checksum>https://raw.githubusercontent.com/noobsandnerds/modules4all/master/zips/addons.xml.md5</checksum>
+
+                        <datadir zip="true">https://raw.githubusercontent.com/noobsandnerds/modules4all/master/zips/</datadir>
+
+                </dir>
+		<info compressed="false">https://raw.githubusercontent.com/tvboxman/repository.tvboxman/master/zips/addons.xml</info>
+		<checksum>https://raw.githubusercontent.com/tvboxman/repository.tvboxman/master/zips/addons.xml.md5</checksum>
+		<datadir zip="true">https://raw.githubusercontent.com/tvboxman/repository.tvboxman/master/zips/</datadir>
+	</extension>
+	<extension point="xbmc.addon.metadata">
+		<summary lang="en">tvboxman repo</summary>
+		<description lang="en">tvboxman repo</description>
+		<genre>downloads,canadian</genre>
+	</extension>
+</addon>
+</addons>
