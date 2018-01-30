@@ -1,0 +1,28 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<addon id="repository.tvboxman" name="tvboxman" version="0.0.1" provider-name="Brando">
+	<extension point="xbmc.addon.repository" name="tvboxman">
+		<dir>
+			<info compressed="false">https://raw.githubusercontent.com/totalrevolution/python-koding/master/zips/addons.xml</info>
+			<checksum>https://raw.githubusercontent.com/totalrevolution/python-koding/master/zips/addons.xml.md5</checksum>
+			<datadir zip="true">https://raw.githubusercontent.com/totalrevolution/python-koding/master/zips/</datadir>
+		</dir>
+
+<dir>
+
+                        <info compressed="false">https://raw.githubusercontent.com/noobsandnerds/modules4all/master/zips/addons.xml</info>
+
+                        <checksum>https://raw.githubusercontent.com/noobsandnerds/modules4all/master/zips/addons.xml.md5</checksum>
+
+                        <datadir zip="true">https://raw.githubusercontent.com/noobsandnerds/modules4all/master/zips/</datadir>
+
+                </dir>
+		<info compressed="false">https://raw.githubusercontent.com/tvboxman/repository.tvboxman/master/zips/addons.xml</info>
+		<checksum>https://raw.githubusercontent.com/tvboxman/repository.tvboxman/master/zips/addons.xml.md5</checksum>
+		<datadir zip="true">https://raw.githubusercontent.com/tvboxman/repository.tvboxman/master/zips/</datadir>
+	</extension>
+	<extension point="xbmc.addon.metadata">
+		<summary lang="en">tvboxman repo</summary>
+		<description lang="en">tvboxman repo</description>
+		<genre>downloads,canadian</genre>
+	</extension>
+</addon>
